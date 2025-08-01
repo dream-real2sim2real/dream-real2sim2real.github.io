@@ -114,6 +114,7 @@
     <a href="#workspace-splats" class="dot" title="3D Visualization"></a>
     <a href="#task-tracking" class="dot" title="Mass Identification"></a>
     <a href="#wbc" class="dot" title="Force-Based Control"></a>
+    <a href="#dexterous-tasks" class="dot" title="Dexterous Tasks"></a>
   </div>
 
   <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;" id="cover">
@@ -236,6 +237,7 @@
           <li><a href="#workspace-splats">3D Visualization</a></li>
           <li><a href="#task-tracking">Mass Identification</a></li>
           <li><a href="#wbc">Force-Based Control</a></li>
+          <li><a href="#dexterous-tasks">Dexterous Tasks</a></li>
         </ul>
       </nav>
     </div>
@@ -557,6 +559,59 @@
               </div>
             </div>
 
+            <section class="section is-large" id="dexterous-tasks">
+              <div class="container is-max-desktop">
+                <h2 class="title is-1 has-text-centered is-size-4-mobile">More Dexterous Tasks 🤖</h2>
+                <div class="content has-text-justified">
+                  <p>
+                    Our DREAM framework extends beyond simple grasping to more complex dexterous manipulation tasks. These demonstrations showcase the versatility of our mass-aware force control approach in handling various real-world scenarios.
+                  </p>
+                </div>
+                
+                <div style="width: 100%; overflow-x: auto;">
+                  <div style="display: flex; gap: 20px; min-width: max-content; padding: 10px 0;">
+                    <div style="flex-shrink: 0; width: 400px;">
+                      <video autoplay muted loop playsinline controls width="100%" style="aspect-ratio: 16 / 9; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                        <source src="./static/videos/experiments/dex/usestapler.mp4" type="video/mp4">
+                      </video>
+                      <p class="has-text-centered" style="margin-top: 10px;"><strong>Stapler</strong></p>
+                    </div>
+                    <div style="flex-shrink: 0; width: 400px;">
+                      <video autoplay muted loop playsinline controls width="100%" style="aspect-ratio: 16 / 9; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                        <source src="./static/videos/experiments/dex/usemouse.mp4" type="video/mp4">
+                      </video>
+                      <p class="has-text-centered" style="margin-top: 10px;"><strong>Mouse</strong></p>
+                    </div>
+                    <div style="flex-shrink: 0; width: 400px;">
+                      <video autoplay muted loop playsinline controls width="100%" style="aspect-ratio: 16 / 9; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                        <source src="./static/videos/experiments/dex/open_refrige.mp4" type="video/mp4">
+                      </video>
+                      <p class="has-text-centered" style="margin-top: 10px;"><strong>Refrigerator</strong></p>
+                    </div>
+                    <div style="flex-shrink: 0; width: 400px;">
+                      <video autoplay muted loop playsinline controls width="100%" style="aspect-ratio: 16 / 9; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                        <source src="./static/videos/experiments/dex/grasp_unseen_screwdriver.mp4" type="video/mp4">
+                      </video>
+                      <p class="has-text-centered" style="margin-top: 10px;"><strong>Unseen Screwdriver</strong></p>
+                    </div>
+                    <div style="flex-shrink: 0; width: 400px;">
+                      <video autoplay muted loop playsinline controls width="100%" style="aspect-ratio: 16 / 9; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                        <source src="./static/videos/experiments/dex/grasp_large_screwdriver.mp4" type="video/mp4">
+                      </video>
+                      <p class="has-text-centered" style="margin-top: 10px;"><strong>Large Screwdriver</strong></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content has-text-justified">
+                  <p>
+                    These dexterous manipulation tasks demonstrate the versatility and robustness of our DREAM framework. By accurately identifying object mass and incorporating force-aware control, our method enables successful execution of complex manipulation tasks that require precise force application and coordination.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+
             <!-- <div class="content has-text-centered">
               <p class="is-size-7 has-text-grey">💡 Scroll horizontally to view all videos. Each row shows training on one mass and evaluation across all three masses.</p>
             </div> -->
@@ -601,4 +656,5 @@
 
 </body>
 
+</html>
 </html>
